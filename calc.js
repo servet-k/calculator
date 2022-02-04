@@ -10,10 +10,7 @@ function del(){
    document.querySelector(".result-1").innerText=result;
 }
 
-function divide(a,b){
-    if (b==0){return "Error"}
-    return a/b;
-}
+
 function getValue(str){
     return new Function('return ' + str)();
   }
